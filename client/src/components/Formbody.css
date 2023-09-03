@@ -1,0 +1,79 @@
+.search-form{
+    background-color: rgb(249, 252, 249);
+    margin: 5% 10%;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    box-shadow: -2px 2px 7px 0px rgba(89,88,88,0.75);
+-webkit-box-shadow: -2px 2px 7px 0px rgba(89,88,88,0.75);
+-moz-box-shadow: -2px 2px 7px 0px rgba(89,88,88,0.75);
+    height: 550px;
+}
+
+
+.primary-btn{
+    background-color: rgb(13, 13, 198);
+    color: rgb(225, 225, 225);
+    font-size: 14px;
+    font-weight: bold;
+    width: 120px;
+    height: 30px;
+    border-radius: 0.2rem;
+    border-style: hidden;
+}
+
+.primary-btn:hover{
+    cursor: pointer;
+    background-color: blue;
+}
+
+
+.box{
+    /* background-color: pink; */
+    margin: 2% 0;
+}
+
+.text-input{
+    /* background-color: blanchedalmond; */
+    height: 25px;
+    width: 300px;
+    border-style: hidden;
+    border: 1px solid gray;
+    color: black;
+}
+
+.upload-section{
+    /* background-color: pink; */
+    display: flex;
+    padding: 2% 0;
+}
+
+.drop-zone{
+    /* background-color: green; */
+    width: 50%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    border: 1.5px dashed rgb(41, 40, 40);
+    border-radius: 0.3rem;
+    margin-right: 2%;
+}
+
+.preview-message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2%;
+    margin-left: 3%;
+    width: 38%;
+    height: 270px;
+    border: 1.5px dashed rgb(41, 40, 40);
+    border-radius: 0.3rem;
+}
+
+.preview-image{
+    width: 270px;
+    height: 270px;
+}

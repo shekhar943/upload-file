@@ -1,0 +1,16 @@
+.primary-heading{
+    display: block;
+    text-align: center;
+}
+
+.nav{
+    margin: 2% 10%;   
+}
+
+.nav-link{
+    margin: 1%;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}

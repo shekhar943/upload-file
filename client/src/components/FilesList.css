@@ -1,0 +1,30 @@
+.files-container{
+    background-color: red;
+    background-color: rgb(249, 252, 249);
+    margin: 5% 10%;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    box-shadow: -2px 2px 7px 0px rgba(89,88,88,0.75);
+-webkit-box-shadow: -2px 2px 7px 0px rgba(89,88,88,0.75);
+-moz-box-shadow: -2px 2px 7px 0px rgba(89,88,88,0.75);
+    height: auto;
+    margin: 5% 10%;
+}
+
+.files-table{
+    width: 100%;
+    border: 1px solid gray;
+    padding: 2%;
+}
+
+thead{
+    background-color: rgb(13, 13, 198);
+    height: 35px;
+    color: rgb(225, 225, 225);
+    /* column-gap: 20px; */
+}
+
+tbody{
+    text-align: center;
+}
